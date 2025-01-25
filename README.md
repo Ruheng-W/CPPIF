@@ -5,7 +5,7 @@ In this work, we developed a multi-objective comprehensive framework, called CPP
 
 ## How to use it
 
-The main program in the train folder main_cppif.py file.  File main_cppif.py has detail notes. You could change configuration/config_CPPIF.py to achieve custom training and testing, such as modifying datasets, setting hyperparameters and so on. For example if you want to change the padding seqence length you can change the following raws in config.CPPIF.py.
+The main program in the train folder main_cppif.py file.  File main_cppif.py has detail notes. You could change configuration/config_CPPIF.py to achieve custom training and testing, such as modifying datasets, setting hyperparameters and so on. For example if you want to change the padding sequence length you can change the following raws in config.CPPIF.py.
 
 ```python
 parse.add_argument('-pad-pep-len', type=int, default=50, help='number of sense in multi-sense')
